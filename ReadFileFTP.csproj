@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+	  <AssemblyTitle>ReadFileFTP</AssemblyTitle>
+	  <Company>TCSoft</Company>
+	  <Product>WinFormsApp</Product>
+	  <Version>1.0.0</Version>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <Authors>Vũ Thành Trung</Authors>
+	  <Description>Ứng dụng quản lý tệp tin</Description>
+	  <UpdateFeedUrl> http://localhost:8080/update.json</UpdateFeedUrl>
+  </PropertyGroup>
+
+	
+  <ItemGroup>
+    <PackageReference Include="FluentFTP" Version="35.2.3" />
+	  <AssemblyMetadata Include="UpdateFeedUrl" Value="$(UpdateFeedUrl)" />
+  </ItemGroup>
+	
+	
+
+</Project>
